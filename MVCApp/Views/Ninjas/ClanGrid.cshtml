@@ -1,0 +1,49 @@
+﻿@model IEnumerable<NinjaDomain.Classes.Clan>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+
+<h2>Ninja Clan <img src="https://s-media-cache-ak0.pinimg.com/564x/68/50/cb/6850cb2209be741ec076bcc0a6d0ca03.jpg" style="width: 400px; height:300px"/></h2>
+
+
+<p>
+    @Html.ActionLink("Create New Clan", "CreateClan")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ClanName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateCreated)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateModified)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.ClanName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateCreated, "{0:d}")
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateModified, "{0:d}")
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditClan", new { id=item.Id }) |
+            @Html.ActionLink("Details", "ClanDetails", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "DeleteClan", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

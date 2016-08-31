@@ -1,0 +1,5 @@
+C:\Users\rbolan2207\Desktop\homeworkll\4-entity-framework-6-getting-started-m4-exercise-files\Distribution\Ninja.DomainClasses\bin\Debug\NinjaDomain.Classes.dll
+C:\Users\rbolan2207\Desktop\homeworkll\4-entity-framework-6-getting-started-m4-exercise-files\Distribution\Ninja.DomainClasses\bin\Debug\NinjaDomain.Classes.pdb
+C:\Users\rbolan2207\Desktop\homeworkll\4-entity-framework-6-getting-started-m4-exercise-files\Distribution\Ninja.DomainClasses\obj\Debug\NinjaDomain.Classes.csprojResolveAssemblyReference.cache
+C:\Users\rbolan2207\Desktop\homeworkll\4-entity-framework-6-getting-started-m4-exercise-files\Distribution\Ninja.DomainClasses\obj\Debug\NinjaDomain.Classes.dll
+C:\Users\rbolan2207\Desktop\homeworkll\4-entity-framework-6-getting-started-m4-exercise-files\Distribution\Ninja.DomainClasses\obj\Debug\NinjaDomain.Classes.pdb
